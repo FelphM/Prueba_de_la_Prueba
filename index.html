@@ -3,15 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mi Proyecto</title>
+    <title>Prueba de la Prueba de Github</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Assets/css/styles.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
-    <h1></h1>
-    <p>Este es un proyecto básico de HTML y CSS.</p>
+
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tienda de Ventas de Cajas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Pagina Principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Más Cajas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Precios</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="titulo">
+    <h1>¡Las Mejores Cajas a los mejores precios!</h1>
+</div>
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <a href="URL_DEL_PRODUCTO_1">
+              <img src="assets/img/Caja1.jpg" class="card-img-top" alt="Producto 1">
+            </a>
+            <div class="card-body">
+              <a href="URL_DEL_PRODUCTO_1">
+                <h5 class="card-title">Caja normal</h5>
+              </a>
+              <p class="card-text">Caja completamente normal</p>
+            </div>
+            <div class="d-flex justify-content-end gap-3">
+              <span class="text-secondary text-decoration-line-through">$45.990</span>
+              <span class="text-success fw-bold">$22.990</span>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <a href="http://127.0.0.1:5500/index2.html"> 
+              <img src="assets/img/Caja2.jpg" class="card-img-top" alt="Producto 2">
+            </a>
+            <div class="card-body">
+              <a href="http://127.0.0.1:5500/index2.html">
+                <h5 class="card-title">Caja de Madera</h5>
+              </a>
+              <p class="card-text"> Caja completamente de madera</p>
+            </div>
+            <div class="d-flex justify-content-end gap-2">
+              <span class="text-secondary text-decoration-line-through">$30.990</span>
+              <span class="text-success fw-bold">$12.990</span>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <a href="URL_DEL_PRODUCTO_3">
+              <img src="assets/img/Caja3.jpg" class="card-img-top" alt="Producto 3">
+            </a>
+            <div class="card-body">
+              <a href="URL_DEL_PRODUCTO_3">
+                <h5 class="card-title">Caja roja</h5>
+              </a>
+              <p class="card-text">Caja completamente roja</p>
+            </div>
+            <div class="d-flex justify-content-end gap-2">
+              <span class="text-secondary text-decoration-line-through">$300.000</span>
+              <span class="text-success fw-bold">$25.990</span>
+            </div>
+          </div>
+        </div>
+
+            <footer>
+      <div class="footer-container">
+          <h4>Recibe cupones en tu correo</h4>
+    
+          <form>
+              <div class="form-group">
+                  <input type="nombre" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Correo Electrónico">
+              </div>
+              <button type="enviar" class="btn">Enviar</button>
+          </form>
+    
+          <p>© 2018 Cajas Latam. Todos los derechos reservados.</p>
+      </div>
+    </footer>
 </body>
 </html>
